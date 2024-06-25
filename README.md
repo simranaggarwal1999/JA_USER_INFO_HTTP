@@ -35,3 +35,4 @@ The service returns 200 Ok response for success(when user exist in property) and
 5. To generate war file, run:
    ```bash
    mvn package
+6. While hitting request in Postman, the auth type should be selected as Basic auth alongwith setting username and password in the Authorisation tab.
